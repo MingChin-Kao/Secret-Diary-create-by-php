@@ -20,8 +20,8 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'ssl';
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 465;
-$mail->Username = 'helloworldwooo@gmail.com';
-$mail->Password = 'helloworldhello';
+$mail->Username = '';  
+$mail->Password = '';
 
 
 $mail->setFrom('helloworldwooo@gmail.com', 'It is test mail');
